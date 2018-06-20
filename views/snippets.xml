@@ -1,0 +1,23 @@
+<odoo>
+<template id="my_snippet_bar" inherit_id="website.snippets" name="My Snippet Bar">
+	<xpath expr="//div[@id='snippet_structure']" position="after">
+		<div id="my_snippet" class="o_panel">
+			<div class="o_panel_header">
+				<i class="fa fa-th"></i>
+				My Snippet
+			</div>
+			<div class="o_panel_body">
+	
+			</div>
+		</div>
+	</xpath>
+</template>
+
+<template id="my_snippet_icon" inherit_id="my_snippet_bar" name="My Snippet Icon">
+  <xpath expr="//div[@id='my_snippet']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="my_snippet.snippet_my_snippet"
+       t-thumbnail="/my_snippet/static/src/img/thumbnail.png"/>
+  </xpath>
+</template>
+
+</odoo>

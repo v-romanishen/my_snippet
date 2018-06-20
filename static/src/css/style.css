@@ -1,0 +1,10 @@
+.add-style{
+    background-color: burlywood;
+}
+.next-style{
+    background-color: whitesmoke;
+}
+#odoo_style{
+    /* outline: 2px solid #000; Чёрная рамка */
+    border: 1px solid #000; /* Белая рамка */
+}

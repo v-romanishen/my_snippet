@@ -1,0 +1,35 @@
+<odoo>
+<template id="snippet_my_snippet" name="My Snippet Section">
+	<section class="my_snippet_section">
+        <!-- <div class="container-fluid add-style">
+        <div class="row">
+        <div class="col-md-12" id="odoo_style"> -->
+
+            <div class="container next-style">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8" id="odoo_style">
+                        <h1>Events in visitor's country</h1>
+                        <p>
+                            Founder and chief visionary, Tony is the driving force behind Company. 
+                            He loves to keep his hands full by participating in the development of
+                            the software, marketing and the Customer Experience strategies.
+                        </p>
+                        <p>
+                            Founder and chief visionary, Tony is the driving force behind Company. 
+                            He loves to keep his hands full by participating in the development of
+                            the software, marketing and the Customer Experience strategies.
+                        </p>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                    </div>
+                </div>
+            </div>
+
+        <!-- </div>
+        </div>
+        </div> -->
+    </section>
+</template>
+
+</odoo>
