@@ -9,5 +9,7 @@
         'views/snippets.xml',
         'views/body.xml',
     ],
-    'depends': [],
+    'depends': [
+        'website',
+    ],
 }

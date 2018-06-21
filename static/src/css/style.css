@@ -5,6 +5,40 @@
     background-color: whitesmoke;
 }
 #odoo_style{
-    /* outline: 2px solid #000; Чёрная рамка */
-    border: 1px solid #000; /* Белая рамка */
+    border: 1px solid #000; /* Чёрная рамка */
+}
+.four_block{
+    background-image: url("../img/s_4_block.jpg");
+    width: 553px;
+    height: 368px;
+}
+#two{
+    left: 30px;
+}
+#four{
+    left: 30px;
+}
+
+.four_block:hover .one_button {
+    display: block;
+    position: absolute;
+    margin-left: 332px;
+}
+
+
+.one_button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 0px;
+    transition: margin-left 1s;
+    display: none;
 }

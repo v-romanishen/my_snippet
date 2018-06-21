@@ -20,4 +20,11 @@
   </xpath>
 </template>
 
+<template id="four_blocks_icon" inherit_id="my_snippet_bar" name="Four Blocks Icon">
+  <xpath expr="//div[@id='my_snippet']/div[@class='o_panel_body']" position="inside">
+    <t t-snippet="my_snippet.s_four_blocks"
+       t-thumbnail="/my_snippet/static/src/img/thumbnail.png"/>
+  </xpath>
+</template>
+
 </odoo>

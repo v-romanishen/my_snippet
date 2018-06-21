@@ -32,4 +32,48 @@
     </section>
 </template>
 
+<template id="s_four_blocks" name="Four Blocks Snippet">
+	<section class="s_four_blocks_section">
+            <div class="container">
+                <div class="row">
+                    <div id="one" class="col-xs-6 col-md-6 mb32 four_block" >
+                        <button class="button one_button slide"><span>Hover </span></button>
+                        <h1>An automated employment and payment platform</h1>
+                        <p>
+                            Aline is one of the iconic person in life who can say she loves what she does. 
+                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                        </p>
+                    </div>
+
+                    <div id="two" class="col-xs-6 col-md-6 mb32 four_block">
+                        <button class="button one_button"><span>Hover </span></button>
+                        <h1>An automated employment and payment platform</h1>
+                        <p>
+                            Aline is one of the iconic person in life who can say she loves what she does. 
+                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                        </p>
+                    </div>
+
+                    <div id="three" class="col-xs-6 col-md-6 mb32 four_block">
+                        <button class="button one_button"><span>Hover </span></button>
+                        <h1>An automated employment and payment platform</h1>
+                        <p>
+                            Aline is one of the iconic person in life who can say she loves what she does. 
+                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                        </p>
+                    </div>
+
+                    <div id="four" class="col-xs-6 col-md-6 mb32 four_block">
+                        <button class="button one_button"><span>Hover </span></button>
+                        <h1>An automated employment and payment platform</h1>
+                        <p>
+                            Aline is one of the iconic person in life who can say she loves what she does. 
+                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+</template>
+
 </odoo>
