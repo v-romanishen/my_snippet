@@ -37,7 +37,9 @@
             <div class="container">
                 <div class="row">
                     <div id="one" class="col-xs-6 col-md-6 mb32 four_block" >
-                        <button class="button one_button slide"><span>Hover </span></button>
+                        <!-- <button  class="button one_button slide"><span>Hover </span></button> -->
+                        <a href="https://www.youtube.com/watch?v=oA_TegCyl0U" class="btn one_button" role="button">Go</a>
+
                         <h1>An automated employment and payment platform</h1>
                         <p>
                             Aline is one of the iconic person in life who can say she loves what she does. 
@@ -46,7 +48,8 @@
                     </div>
 
                     <div id="two" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button class="button one_button"><span>Hover </span></button>
+                        <a href="https://www.youtube.com/watch?v=oA_TegCyl0U" class="btn one_button" role="button">Go</a>
+
                         <h1>An automated employment and payment platform</h1>
                         <p>
                             Aline is one of the iconic person in life who can say she loves what she does. 
@@ -55,7 +58,8 @@
                     </div>
 
                     <div id="three" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button class="button one_button"><span>Hover </span></button>
+                        <a href="https://www.youtube.com/watch?v=oA_TegCyl0U" class="btn one_button" role="button">Go</a>
+
                         <h1>An automated employment and payment platform</h1>
                         <p>
                             Aline is one of the iconic person in life who can say she loves what she does. 
@@ -64,7 +68,8 @@
                     </div>
 
                     <div id="four" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button class="button one_button"><span>Hover </span></button>
+                        <a href="https://www.youtube.com/watch?v=oA_TegCyl0U" class="btn one_button" role="button">Go</a>
+
                         <h1>An automated employment and payment platform</h1>
                         <p>
                             Aline is one of the iconic person in life who can say she loves what she does. 
