@@ -42,3 +42,29 @@
     transition: margin-left 1s;
     display: none;
 }
+
+.three_block{
+    width: 297px;
+    height: 288px;
+}
+#three #header_text {
+    text-align: center;
+}
+
+#three_one{
+    left: 90px;
+    background-color: #ff7a43;
+}
+
+#three h2{
+    margin-top: 60px;
+}
+
+#three_two{
+    left: 120px;
+    background-color: #121212;
+}
+#three_three{
+    left: 150px;
+    background-color: #007cef;
+}

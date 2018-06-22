@@ -81,4 +81,54 @@
     </section>
 </template>
 
+<template id="s_three_blocks" name="Three Blocks Snippet">
+	<section class="s_three_blocks_section">
+        <div class="container" id="three">
+            <div class="row">
+                <div class="col-xs-6 col-md-12" id="header_text" >
+                  <h1>Кто хочет - пусть сдвинет себя!</h1>
+                  <p>
+                    Вы не будете расти, если не будете пытаться совершить что-то за пределами того,<br/>
+                    что вы уже знаете в совершенстве.
+                  </p>
+                </div>
+
+                <div id="three_one" class="col-xs-6 col-sm-4 three_block">
+                  <h2>Founder and chief visionary</h2>
+                  <span>
+                    Tony is the driving force behind Company. He loves to keep 
+                    his hands full by participating in the development of the software, 
+                    marketing and the Customer Experience strategies.
+
+                  </span>
+                  <hr align="right" width="200" size="3" color="#0000dd" />
+                </div>
+
+                <div id="three_two" class="col-xs-6 col-sm-4 three_block">
+                    <h2>Founder and chief visionary</h2>
+                    <span>
+                      Tony is the driving force behind Company. He loves to keep 
+                      his hands full by participating in the development of the software, 
+                      marketing and the Customer Experience strategies.
+
+                    </span>
+                    <hr align="right" width="200" size="3" color="#0000dd" />
+                </div>
+
+                <div id="three_three" class="col-xs-6 col-sm-4 three_block">
+                    <h2>Founder and chief visionary</h2>
+                    <span>
+                      Tony is the driving force behind Company. He loves to keep 
+                      his hands full by participating in the development of the software, 
+                      marketing and the Customer Experience strategies.
+
+                    </span>
+                    <hr align="right" width="200" size="3" color="#0000dd" />
+                </div>
+        
+            </div>
+        </div>
+    </section>
+</template>
+
 </odoo>
