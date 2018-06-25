@@ -23,6 +23,10 @@
     display: block;
     position: absolute;
     margin-left: 332px;
+    /* transition-property: margin-left; */
+    /* transition: margin-left 1s; */
+    /* transition-duration: 9s; */
+
 }
 
 
@@ -39,7 +43,8 @@
     cursor: pointer;
     margin: 5px;
     margin-left: 0px;
-    transition: margin-left 1s;
+    /* transition: margin-left 1s; */
+    /* transition-property: margin-left; */
     display: none;
 }
 

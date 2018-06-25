@@ -1,34 +1,26 @@
 <odoo>
 <template id="snippet_my_snippet" name="My Snippet Section">
 	<section class="my_snippet_section">
-        <!-- <div class="container-fluid add-style">
-        <div class="row">
-        <div class="col-md-12" id="odoo_style"> -->
-
-            <div class="container next-style">
-                <div class="row">
-                    <div class="col-xs-12 col-md-8" id="odoo_style">
-                        <h1>Events in visitor's country</h1>
-                        <p>
-                            Founder and chief visionary, Tony is the driving force behind Company. 
-                            He loves to keep his hands full by participating in the development of
-                            the software, marketing and the Customer Experience strategies.
-                        </p>
-                        <p>
-                            Founder and chief visionary, Tony is the driving force behind Company. 
-                            He loves to keep his hands full by participating in the development of
-                            the software, marketing and the Customer Experience strategies.
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-4">
-                        <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
-                    </div>
+        <div class="container next-style">
+            <div class="row">
+                <div class="col-xs-12 col-md-8" id="odoo_style">
+                    <h1>Events in visitor's country</h1>
+                    <p>
+                        Founder and chief visionary, Tony is the driving force behind Company. 
+                        He loves to keep his hands full by participating in the development of
+                        the software, marketing and the Customer Experience strategies.
+                    </p>
+                    <p>
+                        Founder and chief visionary, Tony is the driving force behind Company. 
+                        He loves to keep his hands full by participating in the development of
+                        the software, marketing and the Customer Experience strategies.
+                    </p>
+                </div>
+                <div class="col-xs-6 col-md-4">
+                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
                 </div>
             </div>
-
-        <!-- </div>
         </div>
-        </div> -->
     </section>
 </template>
 
@@ -101,7 +93,7 @@
                     marketing and the Customer Experience strategies.
 
                   </span>
-                  <hr align="right" width="200" size="3" color="#0000dd" />
+                  <hr align="right" width="200" size="3"/>
                 </div>
 
                 <div id="three_two" class="col-xs-6 col-sm-4 three_block">
@@ -112,7 +104,7 @@
                       marketing and the Customer Experience strategies.
 
                     </span>
-                    <hr align="right" width="200" size="3" color="#0000dd" />
+                    <hr align="right" width="200" size="3"/>
                 </div>
 
                 <div id="three_three" class="col-xs-6 col-sm-4 three_block">
@@ -123,12 +115,172 @@
                       marketing and the Customer Experience strategies.
 
                     </span>
-                    <hr align="right" width="200" size="3" color="#0000dd" />
+                    <hr align="right" width="200" size="3"/>
                 </div>
         
             </div>
         </div>
     </section>
 </template>
+
+<template id="s_image_and_four_blocks" name="Image And Four Blocks Snippet">
+	<section class="s_image_and_four_blocks_section">
+        <div class="container" id="three">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">
+                    <img src="/my_snippet/static/src/img/image_and_four_blocks.jpg" class="img-responsive" alt="Responsive image"/>
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <div class="row">
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<template id="s_four_blocks_and_image" name="Four Blocks And Image Snippet">
+	<section class="s_four_blocks_and_image_section">
+        <div class="container" id="three">
+            <div class="row">
+                <div class="col-xs-12 col-md-8">
+                    <div class="row">
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8" id="odoo_style">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <img src="/my_snippet/static/src/img/block_img.jpg" class="img-responsive" alt="Responsive image"/>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Text</h2>
+                                    <p>
+                                        Founder and chief visionary, Tony is the driving force behind Company. 
+                                        He loves to keep his hands full by participating in the development of
+                                        the software, marketing and the Customer Experience strategies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-6 col-md-4">
+                    <img src="/my_snippet/static/src/img/image_and_four_blocks.jpg" class="img-responsive" alt="Responsive image"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
 
 </odoo>
