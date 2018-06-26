@@ -7,8 +7,12 @@
 #odoo_style{
     border: 1px solid #000; /* Чёрная рамка */
 }
+
+
+/* --------------------------- four blocks snippet --------------------------- */
 .four_block{
-    background-image: url("../img/s_4_block.jpg");
+    /* background-image: url("../img/s_4_block.jpg"); */
+    background: url("../img/s_4_block.jpg");
     width: 553px;
     height: 368px;
 }
@@ -19,35 +23,41 @@
     left: 30px;
 }
 
-.four_block:hover .one_button {
-    display: block;
-    position: absolute;
-    margin-left: 332px;
-    /* transition-property: margin-left; */
-    /* transition: margin-left 1s; */
-    /* transition-duration: 9s; */
-
-}
-
-
 .one_button {
-    border-radius: 4px;
+    opacity: 0;
+    position: absolute;
+
+    width: 100px;
+	height: 100px;
+    -moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+
     background-color: #f4511e;
     border: none;
     color: #FFFFFF;
     text-align: center;
     font-size: 28px;
-    padding: 20px;
-    width: 200px;
+
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    margin-left: 0px;
-    /* transition: margin-left 1s; */
-    /* transition-property: margin-left; */
-    display: none;
+    margin-left: 423px;
+    margin-top: 15px;
+
+    transition-property: opacity;
+    transition-duration: .9s;
 }
 
+.four_block:hover .one_button {
+    opacity: 1;
+}
+.four_block:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/s_4_block.jpg");
+}
+
+
+
+/* --------------------------- three blocks snippet --------------------------- */
 .three_block{
     width: 297px;
     height: 288px;
