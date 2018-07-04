@@ -9,6 +9,7 @@
 }
 
 
+
 /* --------------------------- four blocks snippet --------------------------- */
 .four_block{
     /* background-image: url("../img/s_4_block.jpg"); */
@@ -57,17 +58,18 @@
 
 
 
+
 /* --------------------------- three blocks snippet --------------------------- */
 .three_block{
-    width: 297px;
-    height: 288px;
+    width: 369px;
+    height: 364px;
 }
 #three #header_text {
     text-align: center;
 }
 
 #three_one{
-    left: 90px;
+    /* left: 90px; */
     background-color: #ff7a43;
 }
 
@@ -76,10 +78,10 @@
 }
 
 #three_two{
-    left: 120px;
+    left: 30px;
     background-color: #121212;
 }
 #three_three{
-    left: 150px;
+    left: 60px;
     background-color: #007cef;
 }

@@ -85,7 +85,7 @@
                   </p>
                 </div>
 
-                <div id="three_one" class="col-xs-6 col-sm-4 three_block">
+                <div id="three_one" class="col-xs-6 col-md-4 three_block">
                   <h2>Founder and chief visionary</h2>
                   <span>
                     Tony is the driving force behind Company. He loves to keep 
@@ -96,7 +96,7 @@
                   <hr align="right" width="200" size="3"/>
                 </div>
 
-                <div id="three_two" class="col-xs-6 col-sm-4 three_block">
+                <div id="three_two" class="col-xs-6 col-md-4 three_block">
                     <h2>Founder and chief visionary</h2>
                     <span>
                       Tony is the driving force behind Company. He loves to keep 
@@ -107,7 +107,7 @@
                     <hr align="right" width="200" size="3"/>
                 </div>
 
-                <div id="three_three" class="col-xs-6 col-sm-4 three_block">
+                <div id="three_three" class="col-xs-6 col-md-4 three_block">
                     <h2>Founder and chief visionary</h2>
                     <span>
                       Tony is the driving force behind Company. He loves to keep 
