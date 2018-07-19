@@ -12,16 +12,22 @@
 
 /* --------------------------- four blocks snippet --------------------------- */
 .four_block{
-    /* background-image: url("../img/s_4_block.jpg"); */
-    background: url("../img/s_4_block.jpg");
     width: 553px;
     height: 368px;
+    padding: 0px;
+    display: flex;
 }
-#two{
+
+#two {
     left: 30px;
 }
-#four{
+
+#four {
     left: 30px;
+}
+
+.inside-inside {
+    padding: 10px;
 }
 
 .one_button {
@@ -52,10 +58,11 @@
 .four_block:hover .one_button {
     opacity: 1;
 }
-.four_block:hover {
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("../img/s_4_block.jpg");
-}
 
+.four_block:hover .inside {
+    padding: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -64,6 +71,7 @@
     width: 369px;
     height: 364px;
 }
+
 #three #header_text {
     text-align: center;
 }
@@ -81,6 +89,7 @@
     left: 30px;
     background-color: #121212;
 }
+
 #three_three{
     left: 60px;
     background-color: #007cef;

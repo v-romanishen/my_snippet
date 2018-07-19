@@ -25,49 +25,61 @@
 </template>
 
 <template id="s_four_blocks" name="Four Blocks Snippet">
-	<section class="s_four_blocks_section">
+	<section class="s_four_blocks_section mt64 mb64">
             <div class="container">
                 <div class="row">
-                    <div id="one" class="col-xs-6 col-md-6 mb32 four_block" >
-                        <button  class="button one_button slide"><span>Click</span></button>
-                        <!-- <a href="https://www.youtube.com/watch?v=oA_TegCyl0U" class="btn one_button" role="button">Go</a> -->
-
-                        <h1>An automated employment and payment platform</h1>
-                        <p>
-                            Aline is one of the iconic person in life who can say she loves what she does. 
-                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
-                        </p>
-                    </div>
-
-                    <div id="two" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button  class="button one_button slide"><span>Click</span></button>
-
-                        <h1>An automated employment and payment platform</h1>
-                        <p>
-                            Aline is one of the iconic person in life who can say she loves what she does. 
-                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
-                        </p>
-                    </div>
-
-                    <div id="three" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button  class="button one_button slide"><span>Click</span></button>
-
-                        <h1>An automated employment and payment platform</h1>
-                        <p>
-                            Aline is one of the iconic person in life who can say she loves what she does. 
-                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
-                        </p>
-                    </div>
-
-                    <div id="four" class="col-xs-6 col-md-6 mb32 four_block">
-                        <button  class="button one_button slide"><span>Click</span></button>
-
-                        <h1>An automated employment and payment platform</h1>
-                        <p>
-                            Aline is one of the iconic person in life who can say she loves what she does. 
-                            She mentors 100+ in-house developers and looks after the community of over thousands developers.
-                        </p>
-                    </div>
+                    <section id="one" class="col-xs-6 col-md-6 mb32 four_block" style="background-image:url('/my_snippet/static/src/img/s_4_block.jpg');">
+                        <div class="inside">
+                            <div class="inside-inside">
+                                <button  class="button one_button slide"><span>Click</span></button>
+                                
+                                <h1>An automated employment and payment platform</h1>
+                                <p>
+                                    Aline is one of the iconic person in life who can say she loves what she does. 
+                                    She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="two" class="col-xs-6 col-md-6 mb32 four_block" style="background-image:url('/my_snippet/static/src/img/s_4_block.jpg');">
+                        <div class="inside">
+                            <div class="inside-inside">
+                                <button  class="button one_button slide"><span>Click</span></button>
+                                
+                                <h1>An automated employment and payment platform</h1>
+                                <p>
+                                    Aline is one of the iconic person in life who can say she loves what she does. 
+                                    She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="three" class="col-xs-6 col-md-6 four_block" style="background-image:url('/my_snippet/static/src/img/s_4_block.jpg');">
+                        <div class="inside">
+                            <div class="inside-inside">
+                                <button  class="button one_button slide"><span>Click</span></button>
+                                
+                                <h1>An automated employment and payment platform</h1>
+                                <p>
+                                    Aline is one of the iconic person in life who can say she loves what she does. 
+                                    She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="four" class="col-xs-6 col-md-6 four_block" style="background-image:url('/my_snippet/static/src/img/s_4_block.jpg');">
+                        <div class="inside">
+                            <div class="inside-inside">
+                                <button  class="button one_button slide"><span>Click</span></button>
+                                
+                                <h1>An automated employment and payment platform</h1>
+                                <p>
+                                    Aline is one of the iconic person in life who can say she loves what she does. 
+                                    She mentors 100+ in-house developers and looks after the community of over thousands developers.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
     </section>
